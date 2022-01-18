@@ -1,0 +1,7 @@
+AuthName "angkatan61.stis.ac.id statistics"
+AuthType Basic
+AuthUserFile /home/pa61/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
